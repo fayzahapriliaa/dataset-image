@@ -1,0 +1,3 @@
+bak
+deployment/backend/.env
+deployment/backend/__pycache__
