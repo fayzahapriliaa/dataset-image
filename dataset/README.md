@@ -1,9 +1,10 @@
-<h1>Dataset</h1>
+# Dataset
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Dataset Structure](#dataset-structure)
+- [Training Image and Model Tflite](#training-Image-and-model-tflite)
   - [Example Directory Structure](#example-directory-structure)
 
 
@@ -18,19 +19,21 @@ You can download the dataset using this link: [datasets.rar](https://storage.goo
 The dataset is organized into the following main directories:
 - `raw_data`: Contains the raw, unprocessed images and metadata files.
 
+## Training Image and Model Tflite
+Train model [image_model.ipynb](https://github.com/giziloid/model-gizilo/blob/master/dataset/image_model.ipynb) and here model Tflite [model.tflite](https://github.com/giziloid/model-gizilo/blob/master/dataset/model.tflite)
 ### Example Directory Structure
 
 ```bash
-datasets
-├── makanan
-│   ├── product
+dataset
+├── Train 
+│   ├── product1
 │   │   ├── image.jpg
 │   │   └── ...
 │   ├── product1
 │   │   ├── image.jpg
 │   │   └── ...
 │   └── ...
-└── minuman
+└── Test
     ├── product
     │   ├── image.jpg
     │   └── ...
